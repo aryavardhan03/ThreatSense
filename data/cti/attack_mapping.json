@@ -1,0 +1,209 @@
+{
+    "DDOS-ICMP_FLOOD": [
+        {
+            "technique_id": "T1498.001",
+            "mapping_status": "potential",
+            "mapping_basis": "High-volume ICMP flooding is consistent with Direct Network Flood behavior."
+        }
+    ],
+
+    "DDOS-UDP_FLOOD": [
+        {
+            "technique_id": "T1498.001",
+            "mapping_status": "potential",
+            "mapping_basis": "High-volume UDP flooding is consistent with Direct Network Flood behavior."
+        }
+    ],
+
+    "DDOS-TCP_FLOOD": [
+        {
+            "technique_id": "T1498.001",
+            "mapping_status": "potential",
+            "mapping_basis": "High-volume TCP flooding is consistent with Direct Network Flood behavior."
+        }
+    ],
+
+    "DDOS-SYN_FLOOD": [
+        {
+            "technique_id": "T1498.001",
+            "mapping_status": "potential",
+            "mapping_basis": "SYN flooding can represent high-volume direct network flooding."
+        }
+    ],
+
+    "DDOS-PSHACK_FLOOD": [
+        {
+            "technique_id": "T1498.001",
+            "mapping_status": "potential",
+            "mapping_basis": "TCP PSH/ACK flooding is consistent with direct network flooding."
+        }
+    ],
+
+    "DDOS-RSTFINFLOOD": [
+        {
+            "technique_id": "T1498.001",
+            "mapping_status": "potential",
+            "mapping_basis": "RST/FIN flooding is consistent with direct network flooding."
+        }
+    ],
+
+    "DDOS-SYNONYMOUSIP_FLOOD": [
+        {
+            "technique_id": "T1498.001",
+            "mapping_status": "potential",
+            "mapping_basis": "Flooding traffic using spoofed source identities can be associated with direct network flooding."
+        }
+    ],
+
+    "DDOS-UDP_FRAGMENTATION": [
+        {
+            "technique_id": "T1498.001",
+            "mapping_status": "potential",
+            "mapping_basis": "UDP fragmentation flooding is consistent with direct network flooding."
+        }
+    ],
+
+    "DDOS-ICMP_FRAGMENTATION": [
+        {
+            "technique_id": "T1498.001",
+            "mapping_status": "potential",
+            "mapping_basis": "ICMP fragmentation flooding is consistent with direct network flooding."
+        }
+    ],
+
+    "DDOS-ACK_FRAGMENTATION": [
+        {
+            "technique_id": "T1498.001",
+            "mapping_status": "potential",
+            "mapping_basis": "ACK fragmentation flooding is consistent with direct network flooding."
+        }
+    ],
+
+    "DDOS-HTTP_FLOOD": [
+        {
+            "technique_id": "T1499.003",
+            "mapping_status": "potential",
+            "mapping_basis": "HTTP flooding can target application resources and may be consistent with application exhaustion."
+        }
+    ],
+
+    "DDOS-SLOWLORIS": [
+        {
+            "technique_id": "T1499.003",
+            "mapping_status": "potential",
+            "mapping_basis": "Slowloris targets web application/server resources through connection exhaustion."
+        }
+    ],
+
+    "DOS-SYN_FLOOD": [
+        {
+            "technique_id": "T1498.001",
+            "mapping_status": "potential",
+            "mapping_basis": "SYN flooding is consistent with direct network flooding."
+        }
+    ],
+
+    "DOS-TCP_FLOOD": [
+        {
+            "technique_id": "T1498.001",
+            "mapping_status": "potential",
+            "mapping_basis": "TCP flooding is consistent with direct network flooding."
+        }
+    ],
+
+    "DOS-UDP_FLOOD": [
+        {
+            "technique_id": "T1498.001",
+            "mapping_status": "potential",
+            "mapping_basis": "UDP flooding is consistent with direct network flooding."
+        }
+    ],
+
+    "DOS-HTTP_FLOOD": [
+        {
+            "technique_id": "T1499.003",
+            "mapping_status": "potential",
+            "mapping_basis": "HTTP flooding may target application resources and is potentially consistent with application exhaustion."
+        }
+    ],
+
+    "RECON-PORTSCAN": [
+        {
+            "technique_id": "T1046",
+            "mapping_status": "potential",
+            "mapping_basis": "MITRE describes port scanning as a common method for Network Service Discovery."
+        }
+    ],
+
+    "VULNERABILITYSCAN": [
+        {
+            "technique_id": "T1595.002",
+            "mapping_status": "potential",
+            "mapping_basis": "Vulnerability scanning corresponds to the Active Scanning: Vulnerability Scanning sub-technique in the Reconnaissance tactic."
+        }
+    ],
+
+    "SQLINJECTION": [
+        {
+            "technique_id": "T1190",
+            "mapping_status": "potential",
+            "mapping_basis": "MITRE procedure examples document SQL injection as exploitation of public-facing applications."
+        }
+    ],
+
+    "XSS": [
+        {
+            "technique_id": "T1189",
+            "mapping_status": "potential",
+            "mapping_basis": "MITRE documents cross-site scripting as one possible mechanism in Drive-by Compromise scenarios."
+        }
+    ],
+
+    "DNS_SPOOFING": [
+        {
+            "technique_id": "T1557.001",
+            "mapping_status": "potential",
+            "mapping_basis": "Name-resolution poisoning can involve spoofing name-resolution responses; exact mapping depends on the DNS spoofing behavior observed."
+        }
+    ],
+
+    "MITM-ARPSPOOFING": [
+        {
+            "technique_id": "T1557.002",
+            "mapping_status": "potential",
+            "mapping_basis": "ARP spoofing corresponds to the Adversary-in-the-Middle: ARP Cache Poisoning behavior."
+        }
+    ],
+
+    "RECON-HOSTDISCOVERY": [
+        {
+            "technique_id": "T1046",
+            "mapping_status": "potential",
+            "mapping_basis": "Host/network discovery may involve enumeration of network services; exact ATT&CK mapping requires additional host-discovery context."
+        }
+    ],
+
+    "RECON-OSSCAN": [
+        {
+            "technique_id": "T1046",
+            "mapping_status": "potential",
+            "mapping_basis": "OS scanning can accompany network/service enumeration, but the exact behavior requires contextual validation."
+        }
+    ],
+
+    "RECON-PINGSWEEP": [
+        {
+            "technique_id": "T1046",
+            "mapping_status": "potential",
+            "mapping_basis": "Ping sweeps can be used for network enumeration; exact ATT&CK mapping depends on the discovery behavior observed."
+        }
+    ],
+
+    "COMMANDINJECTION": [
+        {
+            "technique_id": "T1190",
+            "mapping_status": "potential",
+            "mapping_basis": "MITRE documents command injection in examples of exploiting vulnerable public-facing applications."
+        }
+    ]
+}

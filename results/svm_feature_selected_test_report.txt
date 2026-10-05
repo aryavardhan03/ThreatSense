@@ -1,0 +1,50 @@
+FINAL TEST EVALUATION
+======================================================================
+Accuracy           : 0.6008
+Weighted Precision : 0.6099
+Weighted Recall    : 0.6008
+Macro F1           : 0.5962
+Weighted F1        : 0.5962
+
+CLASSIFICATION REPORT
+======================================================================
+                         precision    recall  f1-score   support
+
+       BACKDOOR_MALWARE     0.2303    0.2733    0.2500       150
+                 BENIGN     0.2850    0.4067    0.3352       150
+       BROWSERHIJACKING     0.3636    0.4027    0.3822       149
+       COMMANDINJECTION     0.4000    0.3067    0.3472       150
+ DDOS-ACK_FRAGMENTATION     0.9868    0.9933    0.9900       150
+        DDOS-HTTP_FLOOD     0.8582    0.7667    0.8099       150
+        DDOS-ICMP_FLOOD     1.0000    1.0000    1.0000       148
+DDOS-ICMP_FRAGMENTATION     0.9799    0.9733    0.9766       150
+      DDOS-PSHACK_FLOOD     1.0000    0.9933    0.9966       149
+       DDOS-RSTFINFLOOD     1.0000    0.9933    0.9966       149
+         DDOS-SLOWLORIS     0.9020    0.9200    0.9109       150
+DDOS-SYNONYMOUSIP_FLOOD     0.4143    0.6980    0.5200       149
+         DDOS-SYN_FLOOD     0.5208    0.1678    0.2538       149
+         DDOS-TCP_FLOOD     0.5756    0.6735    0.6207       147
+         DDOS-UDP_FLOOD     0.6278    0.9333    0.7507       150
+ DDOS-UDP_FRAGMENTATION     0.9800    0.9800    0.9800       150
+   DICTIONARYBRUTEFORCE     0.5111    0.4600    0.4842       150
+           DNS_SPOOFING     0.4907    0.5302    0.5097       149
+         DOS-HTTP_FLOOD     0.7917    0.8867    0.8365       150
+          DOS-SYN_FLOOD     0.4315    0.4228    0.4271       149
+          DOS-TCP_FLOOD     0.6260    0.5168    0.5662       149
+          DOS-UDP_FLOOD     0.8701    0.4467    0.5903       150
+     MIRAI-GREETH_FLOOD     0.9866    0.9800    0.9833       150
+      MIRAI-GREIP_FLOOD     0.9732    0.9667    0.9699       150
+         MIRAI-UDPPLAIN     1.0000    0.9933    0.9967       150
+       MITM-ARPSPOOFING     0.4819    0.5479    0.5128       146
+    RECON-HOSTDISCOVERY     0.5985    0.5467    0.5714       150
+           RECON-OSSCAN     0.2062    0.1333    0.1619       150
+        RECON-PINGSWEEP     0.3483    0.2067    0.2594       150
+         RECON-PORTSCAN     0.3628    0.2733    0.3118       150
+           SQLINJECTION     0.2314    0.3533    0.2797       150
+       UPLOADING_ATTACK     0.2611    0.2733    0.2671       150
+      VULNERABILITYSCAN     0.2667    0.2133    0.2370       150
+                    XSS     0.1754    0.2000    0.1869       150
+
+               accuracy                         0.6008      5083
+              macro avg     0.6099    0.6010    0.5962      5083
+           weighted avg     0.6099    0.6008    0.5962      5083
